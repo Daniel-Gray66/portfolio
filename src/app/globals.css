@@ -40,6 +40,48 @@ body {
   100% { transform: scale(2.5); opacity: 0; }
 }
 
+/* ── Walking cats ── */
+@keyframes catWalkRight {
+  from { transform: translateX(-120px); }
+  to   { transform: translateX(calc(100vw + 120px)); }
+}
+@keyframes catWalkLeft {
+  from { transform: translateX(calc(100vw + 120px)); }
+  to   { transform: translateX(-120px); }
+}
+@keyframes bodyBob {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-5px); }
+}
+@keyframes tailWag {
+  from { transform: rotate(-20deg); }
+  to   { transform: rotate(18deg); }
+}
+@keyframes legSwingA {
+  0%, 100% { transform: rotate(-18deg); }
+  50%       { transform: rotate(18deg); }
+}
+@keyframes legSwingB {
+  0%, 100% { transform: rotate(18deg); }
+  50%       { transform: rotate(-18deg); }
+}
+
+.cat-tail {
+  transform-box: fill-box;
+  transform-origin: 0% 100%;
+  animation: tailWag 0.55s ease-in-out infinite alternate;
+}
+.cat-leg-a {
+  transform-box: fill-box;
+  transform-origin: 50% 0%;
+  animation: legSwingA 0.4s ease-in-out infinite;
+}
+.cat-leg-b {
+  transform-box: fill-box;
+  transform-origin: 50% 0%;
+  animation: legSwingB 0.4s ease-in-out infinite;
+}
+
 @media (max-width: 500px) {
   .about-grid {
     grid-template-columns: 1fr !important;
