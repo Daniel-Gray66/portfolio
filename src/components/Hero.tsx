@@ -57,9 +57,8 @@ export default function Hero() {
             marginBottom: "1.125rem",
           }}
         >
-          Building things
-          <br />
-          <em style={{ color: "var(--accent)", fontStyle: "italic" }}>that actually ship.</em>
+          Full-Stack<br />
+          <em style={{ color: "var(--accent)", fontStyle: "italic" }}>Engineer.</em>
         </motion.h1>
 
         {/* Bio */}

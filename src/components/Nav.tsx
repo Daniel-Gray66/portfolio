@@ -72,7 +72,7 @@ export default function Nav() {
               letterSpacing: "-0.3px",
             }}
           >
-            daniel<span style={{ color: "var(--accent)" }}>.</span>dev
+            Daniel Gray
           </button>
 
           <nav style={{ display: "flex", gap: "24px" }} className="hidden-mobile">
