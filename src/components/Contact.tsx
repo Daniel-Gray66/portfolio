@@ -24,9 +24,9 @@ const GitHubIcon = () => (
 );
 
 const CONTACTS = [
-  { label: "Email", href: "mailto:your.email@example.com", Icon: EmailIcon },
-  { label: "LinkedIn", href: "#", Icon: LinkedInIcon },
-  { label: "GitHub", href: "#", Icon: GitHubIcon },
+  { label: "Email", href: "mailto:danielmgray925@gmail.com", Icon: EmailIcon },
+  { label: "LinkedIn", href: "https://linkedin.com/in/daniel-graycs", Icon: LinkedInIcon },
+  { label: "GitHub", href: "https://github.com/Daniel-Gray66", Icon: GitHubIcon },
 ];
 
 export default function Contact() {

@@ -7,7 +7,7 @@ const ABOUT = [
   },
   {
     label: "Location",
-    value: "Pleasanton, CA · Open to Bay Area + remote",
+    value: "Pleasanton, CA · Open relocating",
   },
   {
     label: "Background",
@@ -16,7 +16,7 @@ const ABOUT = [
   },
   {
     label: "Outside work",
-    value: "~1800-rated chess player. Built my own analytics tools for it.",
+    value: "~1800-rated chess player. Built my own analytics tools to help me get better",
   },
 ];
 

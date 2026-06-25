@@ -80,7 +80,9 @@ export default function Hero() {
         {/* CTAs */}
         <motion.div variants={item} style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
           <a
-            href="/assets/resume.pdf"
+            href="/assets/Daniel_Gray_resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               display: "inline-flex",
               alignItems: "center",
